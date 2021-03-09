@@ -9,7 +9,7 @@ using System.Collections.Generic;
 
     public void ImprimeSaludo()
         {
-        Console.WriteLine("Hi {0} {1} my grade is {2}", nombre, apellido, calificación);
+        Console.WriteLine("Hola {0} {1} my grade is {2}", nombre, apellido, calificación);
         }
 
     public void Califica(int cal)
@@ -31,7 +31,7 @@ class Program
 
     static void ImprimeSaludo(Alumno a)
     {
-        Console.WriteLine("Hi {0} {1} my grade is {2}", a.nombre, a.apellido, a.calificación);
+        Console.WriteLine("Hola {0} {1} my grade is {2}", a.nombre, a.apellido, a.calificación);
     }
 
     static void Califica(ref Alumno a, int cal)
