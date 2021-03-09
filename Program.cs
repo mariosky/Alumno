@@ -9,7 +9,7 @@ using System.Collections.Generic;
 
     public void ImprimeSaludo()
         {
-        Console.WriteLine("Hola {0} {1} my grade is {2}", nombre, apellido, calificación);
+        Console.WriteLine("Hi {0} {1} my grade is {2}", nombre, apellido, calificación);
         }
 
     public void Califica(int cal)
